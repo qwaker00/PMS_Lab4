@@ -24,8 +24,8 @@ MODULE_PARM_DESC(out, "Output file");
 static struct proc_dir_entry* proc_files[4] = {NULL, NULL, NULL, NULL};
 static char * proc_names[4] = {NULL, NULL, NULL, NULL};
 
-static long var1 = 1;
-static long var2 = 2;
+static long var1 = 0;
+static long var2 = 0;
 static char op = '+';
 
 static size_t read_var(char *buffer,
